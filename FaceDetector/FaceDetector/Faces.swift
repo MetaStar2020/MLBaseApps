@@ -6,7 +6,6 @@
 //  Copyright © 2020 5S5. All rights reserved.
 //
 
-import Foundation
 import UIKit
 import Vision
 
@@ -17,16 +16,22 @@ extension UIImage {
         let request = VNDetectFaceRectanglesRequest()
         
         DispatchQueue.global().async {
-            let handler = VNImageRequestHandler(cgImage: image, orientation: self.cgImageOrientation, options: [:])
+            let handler = VNImageRequestHandler(
+                cgImage: image,
+                orientation: self.cgImageOrientation,
+                options: [:]
+            )
+            
             try? handler.perform([request])
+            
+            guard let observations =
+                    request.results as? [VNFaceObservation] else {
+                        return completion(nil)
+            }
+            
+            completion(observations)
         }
-        
-        guard let observations = request.results as? [VNFaceObservation] else {
-            return completion(nil)
-        }
-        completion(observations)
     }
-    
 }
 
 /*
