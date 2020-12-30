@@ -35,6 +35,11 @@ struct ContentView: View {
         self.faces = []
         self.image?.detectFaces { result in
             self.faces = result
+            
+            if let image = self.image,
+               let annotatedImage = result?.drawnOn(image) {
+                self.image = annotatedImage
+            }
         }
     }
     
@@ -69,7 +74,7 @@ extension ContentView {
                     )
             }
             .padding()
-            .navigationBarTitle(Text("FDDemo"), displayMode: .inline)
+            .navigationBarTitle(Text("FaceDetector"), displayMode: .inline)
             .navigationBarItems(
                 leading: Button(action: summonImagePicker) {
                     Text("Select")
