@@ -74,7 +74,7 @@ extension ContentView {
                     )
             }
             .padding()
-            .navigationBarTitle(Text("FDDemo"), displayMode: .inline)
+            .navigationBarTitle(Text("FaceDetector"), displayMode: .inline)
             .navigationBarItems(
                 leading: Button(action: summonImagePicker) {
                     Text("Select")
