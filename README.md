@@ -12,7 +12,7 @@
 MLBaseApps is a folder containing multiple AI/MachineLearning SWIFT mini-apps.
 
 <p align="row">
-<img src= "" width="200" >
+<img src= "https://media.giphy.com/media/n1tB1sprRQ46kV7RVJ/giphy.gif" width="200" >
 </p>
 
 ## Motivation
@@ -43,6 +43,16 @@ This app/playground uses Apple's frameworks to find barcodes in images and gener
 - [x] VNRectangleObservation and VNBarcodeObservation (CoreML VISION)  <i> - Recognizing rectangles and barcodes in an image </i>
 - [x] VNSaliencyImageObservation (CoreML VISION) <i> - Recognizing the area of interest in an image </i>
 - [x] Manipulating the standard CGRect class
+
+## 3. Image Similarity Detection
+
+This SWIFTUI app uses Apple's frameworks to find similarities between two images selected by the user.
+
+### Features
+
+- [x] SWIFTUI
+- [x] VNFeaturePrintObservation (CoreML VISION) <i> - Assists in deriving image similarity </i>
+- [x] Taking control of UIImage to do advanced modifications 
 
 ## Requirements
 
