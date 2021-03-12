@@ -33,13 +33,15 @@ This app uses image analysistechniques to count faces in an image and perform va
 - [x] VNFaceObservation (CoreML VISION) <i> - Recognizing face or facial features in an image </i>
 - [x] Taking control of UIImage to do advanced modifications 
 
-## 2. Barcode Detection
+## 2. Barcode Detection & Saliency Detection
+<img src= "https://user-images.githubusercontent.com/61833549/110999096-dab5cc80-834d-11eb-94bb-82b7c61ab48b.png" width="200" >
 
-This app uses Apple's frameworks to find barcodes in images.
+This app/playground uses Apple's frameworks to find barcodes in images and generate a heatmap of an image that can be used to highlight areas of interest.
 
 ### Features
 
 - [x] VNRectangleObservation and VNBarcodeObservation (CoreML VISION)  <i> - Recognizing rectangles and barcodes in an image </i>
+- [x] VNSaliencyImageObservation (CoreML VISION) <i> - Recognizing the area of interest in an image </i>
 - [x] Manipulating the standard CGRect class
 
 ## Requirements
