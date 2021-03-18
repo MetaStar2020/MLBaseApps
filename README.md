@@ -14,6 +14,8 @@ MLBaseApps is a folder containing multiple AI/MachineLearning SWIFT mini-apps.
 <p align="row">
 <img src= "https://media.giphy.com/media/AfWPNvhvugHJ5AwxlJ/giphy.gif" width="200" >
 <img src= "https://media.giphy.com/media/n1tB1sprRQ46kV7RVJ/giphy.gif" width="200" >
+<img src= "https://media.giphy.com/media/BGjhivDVBR5kWIcq0S/giphy.gif" width="200" >
+  
 </p>
 
 ## Motivation
@@ -57,12 +59,12 @@ This SWIFTUI app uses Apple's frameworks to find similarities between two images
 
 ## 4. Image Classification Recognition
 
-This SWIFTUI app that classify an image using my own deep-learning machine-learning model.
+This iOS app classifies an image using my own deep-learning machine-learning model. Dataset is an MIT licensed dataset provided at http://bit.ly/2oF5qXt
 
 ### Features
 
-- [x] SWIFTUI
-- [x] CreateML (mlmodel) and DataSet
+- [x] DataSet (images)
+- [x] CreateML (mlmodel) 
 
 ## Requirements
 
