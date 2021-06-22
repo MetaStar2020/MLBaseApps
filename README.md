@@ -59,7 +59,24 @@ This SWIFTUI app uses Apple's frameworks to find similarities between two images
 
 ## 4. Image Classification Recognition
 
-This iOS app classifies an image using my own deep-learning machine-learning model. Dataset is an MIT licensed dataset provided at http://bit.ly/2oF5qXt
+This iOS app classifies an image using my own deep-learning machine-learning model. Dataset is an MIT licensed dataset provided at http://bit.ly/2Ba4o8M 
+
+### Features
+
+- [x] DataSet (images)
+- [x] CreateML (mlmodel) 
+- [x] TuriCreate (mlmodel)
+- [x] Python for TuriCreate
+
+## Requirements
+
+• iOS 13.2+
+
+• XCode 12+
+
+## 4. Drawing Recognition
+
+This iOS app classifies an image that was drawn by user using my own deep-learning machine-learning model. Dataset is an MIT licensed dataset provided at http://bit.ly/2oF5qXt
 
 ### Features
 
