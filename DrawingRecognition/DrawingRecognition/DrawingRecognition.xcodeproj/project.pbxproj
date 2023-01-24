@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C076EBAB297F370A00A26CC7 /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076EBAA297F370A00A26CC7 /* Drawing.swift */; };
 		C0DFDC302968CA770057FB88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDC2F2968CA770057FB88 /* AppDelegate.swift */; };
 		C0DFDC322968CA770057FB88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDC312968CA770057FB88 /* SceneDelegate.swift */; };
 		C0DFDC342968CA770057FB88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DFDC332968CA770057FB88 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C076EBAA297F370A00A26CC7 /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
 		C0DFDC2C2968CA770057FB88 /* DrawingRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DFDC2F2968CA770057FB88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0DFDC312968CA770057FB88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				C0DFDC3A2968CA780057FB88 /* LaunchScreen.storyboard */,
 				C0DFDC3D2968CA780057FB88 /* Info.plist */,
 				C0DFDC372968CA780057FB88 /* Preview Content */,
+				C076EBAA297F370A00A26CC7 /* Drawing.swift */,
 				C0DFDC472968CE220057FB88 /* Image.swift */,
 			);
 			path = DrawingRecognition;
@@ -153,6 +156,7 @@
 			files = (
 				C0DFDC452968CD8E0057FB88 /* DrawingClassifierModel.mlmodel in Sources */,
 				C0DFDC302968CA770057FB88 /* AppDelegate.swift in Sources */,
+				C076EBAB297F370A00A26CC7 /* Drawing.swift in Sources */,
 				C0DFDC322968CA770057FB88 /* SceneDelegate.swift in Sources */,
 				C0DFDC342968CA770057FB88 /* ContentView.swift in Sources */,
 				C0DFDC482968CE220057FB88 /* Image.swift in Sources */,

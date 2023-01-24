@@ -9,7 +9,7 @@ import UIKit
 
 extension CIFilter {
     static let mono = CIFilter(name: "CIPhotoEffectMono")!
-    static let notr = CIFilter(name: "CIPhotoEffectNoir")!
+    static let noir = CIFilter(name: "CIPhotoEffectNoir")!
     static let tonal = CIFilter(name: "CIPhotoEffectTonal")!
     static let invert = CIFilter(name: "CIColorInvert")!
     
