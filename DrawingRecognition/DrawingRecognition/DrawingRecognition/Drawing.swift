@@ -64,7 +64,7 @@ extension VNImageRequestHandler {
     
     convenience init?(uiImage: UIImage) {
 
-        guard let ciImage = CIIMage(image: uiImage) else { return nil }
+        guard let ciImage = CIImage(image: uiImage) else { return nil }
         let orientation = uiImage.cgImageOrientation
         
         self.init(ciImage: ciImage, orientation: orientation)
