@@ -77,6 +77,16 @@ This iOS app classifies an image that was drawn by user using my own deep-learni
 - [x] TuriCreate (mlmodel)
 - [x] Python for TuriCreate
 
+## 4. Style Classification
+
+This iOS app classifies an image by its style. It is an update of the Image Classification mini app. Dataset is an MIT licensed dataset provided at http://bit.ly/2B77UAP
+
+### Features
+
+- [x] DataSet (images)
+- [x] CoreML Tools (mlmodel) 
+- [x] Python for CoreML Tools
+
 ## Requirements
 
 • iOS 13.2+
