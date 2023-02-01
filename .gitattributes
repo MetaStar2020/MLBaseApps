@@ -1,1 +1,2 @@
 StyleClassifier/Python/Style.mlmodel filter=lfs diff=lfs merge=lfs -text
+StyleClassifier/Python/finetune_flickr_style.caffemodel filter=lfs diff=lfs merge=lfs -text
