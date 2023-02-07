@@ -22,7 +22,7 @@ MLBaseApps is a folder containing multiple AI/MachineLearning SWIFT mini-apps.
 
 The purpose of this folder is to demonstrate my abilities as an mobile app developer/engineer in AI and Machine Learning using Swift CoreML.
 
-Areas of focus: <strong> VISION, CoreML, SWIFTUI, UIViewControllerRepresentable (importing storyboard-related UI) </strong>
+Areas of focus: <strong> VISION, SPEECH, CoreML, SWIFTUI, UIViewControllerRepresentable (importing storyboard-related UI) </strong>
 
 Architecture: <strong> Model-View-Controller (MVC) </strong>
 
@@ -86,6 +86,16 @@ This iOS app classifies an image by its style. It is an update of the Image Clas
 - [x] DataSet (images)
 - [x] CoreML Tools (mlmodel) 
 - [x] Python for CoreML Tools
+
+## 5. Speech Recognition
+
+This iOS app turns human speech into text. It is an update of the Image Classification mini app. Dataset is an MIT licensed dataset provided at http://bit.ly/2B77UAP
+
+### Features
+
+- [x] SwiftUI (iOS framework)
+- [x] (CoreML SPEECH) 
+- [x] 
 
 ## Requirements
 
