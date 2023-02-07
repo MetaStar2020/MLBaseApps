@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00BF04B2992F6FD009F2F9D /* Style.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C00BF04A2992F6FD009F2F9D /* Style.mlmodel */; };
 		C0F450A125AE4C3C0054B11A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F450A025AE4C3C0054B11A /* AppDelegate.swift */; };
 		C0F450A325AE4C3C0054B11A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F450A225AE4C3C0054B11A /* SceneDelegate.swift */; };
 		C0F450A525AE4C3C0054B11A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F450A425AE4C3C0054B11A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C00BF04A2992F6FD009F2F9D /* Style.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Style.mlmodel; path = ../../StyleClassifier/Python/Style.mlmodel; sourceTree = "<group>"; };
 		C0F4509D25AE4C3C0054B11A /* ImageClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F450A025AE4C3C0054B11A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0F450A225AE4C3C0054B11A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				C0F450A925AE4C3D0054B11A /* Assets.xcassets */,
 				C0F450AB25AE4C3D0054B11A /* LaunchScreen.storyboard */,
 				C0F450AE25AE4C3D0054B11A /* Info.plist */,
+				C00BF04A2992F6FD009F2F9D /* Style.mlmodel */,
 			);
 			path = ImageClassifier;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				C0F450A525AE4C3C0054B11A /* ViewController.swift in Sources */,
 				C0F450A125AE4C3C0054B11A /* AppDelegate.swift in Sources */,
+				C00BF04B2992F6FD009F2F9D /* Style.mlmodel in Sources */,
 				C0F450A325AE4C3C0054B11A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
