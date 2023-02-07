@@ -10,11 +10,11 @@
 		4127A8A322B0E2D70058A6E1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127A8A222B0E2D70058A6E1 /* Utils.swift */; };
 		4127A8A622B0E51B0058A6E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4127A8A422B0E51B0058A6E1 /* Main.storyboard */; };
 		4127A8AA22B1CFA60058A6E1 /* Vision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127A8A922B1CFA60058A6E1 /* Vision.swift */; };
-		6C136A162300279800160712 /* Style.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6C136A152300279800160712 /* Style.mlmodel */; };
 		6CC0433622B0ABBE002642EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC0433522B0ABBE002642EC /* AppDelegate.swift */; };
 		6CC0433A22B0ABBE002642EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC0433922B0ABBE002642EC /* ViewController.swift */; };
 		6CC0433F22B0ABBE002642EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC0433E22B0ABBE002642EC /* Assets.xcassets */; };
 		6CC0434222B0ABBE002642EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC0434022B0ABBE002642EC /* LaunchScreen.storyboard */; };
+		C00BF04D2992F805009F2F9D /* Style.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C00BF04C2992F805009F2F9D /* Style.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +22,12 @@
 		4127A8A222B0E2D70058A6E1 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		4127A8A522B0E51B0058A6E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4127A8A922B1CFA60058A6E1 /* Vision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vision.swift; sourceTree = "<group>"; };
-		6C136A152300279800160712 /* Style.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Style.mlmodel; sourceTree = "<group>"; };
 		6CC0433222B0ABBE002642EC /* StyleClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StyleClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CC0433522B0ABBE002642EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CC0433922B0ABBE002642EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6CC0433E22B0ABBE002642EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CC0434122B0ABBE002642EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C00BF04C2992F805009F2F9D /* Style.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Style.mlmodel; path = Python/Style.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,6 @@
 		6CC0433422B0ABBE002642EC /* StyleClassifier */ = {
 			isa = PBXGroup;
 			children = (
-				6C136A152300279800160712 /* Style.mlmodel */,
 				6CC0433522B0ABBE002642EC /* AppDelegate.swift */,
 				6CC0433922B0ABBE002642EC /* ViewController.swift */,
 				4127A8A222B0E2D70058A6E1 /* Utils.swift */,
@@ -69,6 +68,7 @@
 				6CC0433E22B0ABBE002642EC /* Assets.xcassets */,
 				6CC0434022B0ABBE002642EC /* LaunchScreen.storyboard */,
 				4127A89C22B0DE7D0058A6E1 /* Info.plist */,
+				C00BF04C2992F805009F2F9D /* Style.mlmodel */,
 			);
 			path = StyleClassifier;
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 				6CC0433622B0ABBE002642EC /* AppDelegate.swift in Sources */,
 				4127A8AA22B1CFA60058A6E1 /* Vision.swift in Sources */,
 				4127A8A322B0E2D70058A6E1 /* Utils.swift in Sources */,
-				6C136A162300279800160712 /* Style.mlmodel in Sources */,
+				C00BF04D2992F805009F2F9D /* Style.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +293,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G2HHLC6PEY;
+				DEVELOPMENT_TEAM = 9BK337URC6;
 				INFOPLIST_FILE = StyleClassifier/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aiwithswift.styleclassifier;
+				PRODUCT_BUNDLE_IDENTIFIER = com.5s5.StyleClassifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -312,14 +312,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G2HHLC6PEY;
+				DEVELOPMENT_TEAM = 9BK337URC6;
 				INFOPLIST_FILE = StyleClassifier/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aiwithswift.styleclassifier;
+				PRODUCT_BUNDLE_IDENTIFIER = com.5s5.StyleClassifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
