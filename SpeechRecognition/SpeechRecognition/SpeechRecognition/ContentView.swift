@@ -34,13 +34,33 @@ struct ContentView: View {
     @State var speech: String = ""
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack(alignment: .leading) {
+                if !speech.isEmpty {
+                    Text(speech)
+                        .font(.largeTitle)
+                        .lineLimit(nil)
+                } else {
+                    Text("Speech will go here...")
+                        .font(.largeTitle)
+                        .foregroundColor(.gray)
+                        .lineLimit(nil)
+                }
+
+                Spacer()
+
+                if recording {
+                    Button(action: stopRecording) {
+                        ButtonLabel("Stop Recording", background: .red)
+                    }
+                } else {
+                    Button(action: startRecording) {
+                        ButtonLabel("Start Recording", background: .blue)
+                    }
+                }
+            }.padding()
+            .navigationBarTitle(Text("SRDemo"), displayMode: .inline)
         }
-        .padding()
     }
     
     private let recognizer: SpeechRecognizer
