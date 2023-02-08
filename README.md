@@ -102,7 +102,6 @@ This iOS app that tells us what animal sound we're listening to.
 
 ### Features
 
-- [x] SwiftUI (iOS framework)
 - [x] SFSpeechRecognizer (CoreML SPEECH) 
 
 ## Requirements
