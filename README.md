@@ -89,13 +89,21 @@ This iOS app classifies an image by its style. It is an update of the Image Clas
 
 ## 5. Speech Recognition
 
-This iOS app turns human speech into text. It is an update of the Image Classification mini app. Dataset is an MIT licensed dataset provided at http://bit.ly/2B77UAP
+This iOS app turns human speech into text. It is an update of the Image Classification mini app. 
 
 ### Features
 
 - [x] SwiftUI (iOS framework)
-- [x] (CoreML SPEECH) 
-- [x] 
+- [x] SFSpeechRecognizer (CoreML SPEECH) 
+
+## 6. Sound Classificator
+
+This iOS app that tells us what animal sound we're listening to. 
+
+### Features
+
+- [x] SwiftUI (iOS framework)
+- [x] SFSpeechRecognizer (CoreML SPEECH) 
 
 ## Requirements
 
