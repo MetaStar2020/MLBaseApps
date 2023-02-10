@@ -50,11 +50,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84N-QY-hVy">
-                                                    <rect key="frame" x="28.666666666666671" y="30" width="71" height="68"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="71" id="0Dh-MA-SJ6"/>
-                                                        <constraint firstAttribute="height" constant="68" id="5QO-FD-NYe"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="43.333333333333329" y="54.000000000000007" width="41.333333333333329" height="20.333333333333336"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -62,6 +58,8 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="84N-QY-hVy" firstAttribute="centerX" secondItem="f24-lo-SFI" secondAttribute="centerX" id="2lA-xX-yn2"/>
+                                                <constraint firstItem="84N-QY-hVy" firstAttribute="centerY" secondItem="f24-lo-SFI" secondAttribute="centerY" id="g57-C3-T0A"/>
+                                                <constraint firstItem="84N-QY-hVy" firstAttribute="centerX" secondItem="f24-lo-SFI" secondAttribute="centerX" id="nkO-rU-EXm"/>
                                                 <constraint firstItem="84N-QY-hVy" firstAttribute="centerY" secondItem="f24-lo-SFI" secondAttribute="centerY" id="xMA-Vm-kSA"/>
                                             </constraints>
                                         </collectionViewCellContentView>
