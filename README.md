@@ -95,6 +95,7 @@ This iOS app turns human speech into text. It is an update of the Image Classifi
 
 - [x] SwiftUI (iOS framework)
 - [x] SFSpeechRecognizer (CoreML SPEECH) 
+- [x] CreateML (for model training)
 
 ## 6. Sound Classificator
 
