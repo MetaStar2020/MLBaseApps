@@ -89,7 +89,7 @@ This iOS app classifies an image by its style. It is an update of the Image Clas
 
 ## 5. Speech Recognition
 
-This iOS app turns human speech into text. It is an update of the Image Classification mini app. 
+This iOS app turns human speech into text. It is an update of the Image Classification mini app. Dataset needs to be downloaded from the ESC-50 GitHub repository at http://bit.ly/2MOC3dw
 
 ### Features
 
