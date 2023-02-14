@@ -3,11 +3,14 @@ import shutil
 import pandas as pd
 
 # Configure as required
-input_classes_filename = '/Users/Meta/Documents/5S5/Apps/App\ Projects/AI\ Mini\ Apps/MLBaseApps/SoundClassificator/DataSet/ESC-50-master/meta/esc50.csv'
+input_classes_filename = "/Users/Meta/Desktop/ESC-50-master/meta/esc50.csv"
+#/Users/Meta/Documents/5S5/Apps/App\\ Projects/AI\\ Mini\\ Apps/MLBaseApps/SoundClassificator
 
-sounds_directory = '/Users/Meta/Documents/5S5/Apps/App\ Projects/AI\ Mini\ Apps/MLBaseApps/SoundClassificator/DataSet/ESC-50-master/audio'
+sounds_directory = "/Users/Meta/Desktop/ESC-50-master/audio/"
+#/Users/Meta/Documents/5S5/Apps/App\\ Projects/AI\\ Mini\\ Apps/MLBaseApps/SoundClassificator
 
-output_directory = '/Users/Meta/Documents/5S5/Apps/App\ Projects/AI\ Mini\ Apps/MLBaseApps/SoundClassificator/DataSet/ESC-50-master/classes'
+output_directory = "/Users/Meta/Desktop/ESC-50-master/classes/"
+#/Users/Meta/Documents/5S5/Apps/App\\ Projects/AI\\ Mini\\ Apps/MLBaseApps/SoundClassificator
 
 # variables
 classes_to_include = [ 'dog', 'rooster', 'pig', 'cow', 'frog', 'cat', 'hen', 'insects', 'sheep', 'crow' ]
