@@ -7,6 +7,7 @@
 
 import UIKit
 import AVFoundation
+import SoundAnalysis
 
 class ViewController: UIViewController {
     
@@ -34,6 +35,9 @@ class ViewController: UIViewController {
         
         return directory.appendingPathComponent("recording.m4a")
     }()
+    
+    private let classifier = AudioClassifier(model: SoundClassifierModel().model)
+    
 
     //MARK: - LifeCycle
     override func viewDidLoad() {
@@ -52,8 +56,9 @@ class ViewController: UIViewController {
     private func recordAudio() {
         guard let audioRecorder = audioRecorder else { return }
         
-        classification = nil
-        collectionView.reloadData()
+        refresh(clear: true)
+        //classification = nil
+        //collectionView.reloadData()
         
         recordButton.changeState(
             to: .inProgress(title: "Recording...", color: .systemRed))
@@ -69,26 +74,39 @@ class ViewController: UIViewController {
         progressBar.isHidden = true
         progressBar.progress = 0
         
-        if success, let audioFile = try? AVAudioFile(
+        if success {
+            recordButton.changeState(
+                to: .disabled(title: "Record Sound", color: .systemGray)
+            )
+            classifySound(file: recordedAudioFilename)
+        } else {
+            classify(nil)
+        }
+        /*if success, let audioFile = try? AVAudioFile(
             forReading: recordedAudioFilename) {
             recordButton.changeState(to: .disabled(title: "Record Sound", color: .systemGray))
             classifySound(file: audioFile)
         } else {
             summonAlertView()
             classify(nil)
-        }
+        }*/
     }
     
     private func classify(_ animal: Animal?) {
         classification = animal
         recordButton.changeState(to: .enabled(title: "Record Sound", color: .systemBlue))
         
-        collectionView.reloadData()
+        //collectionView.reloadData()
+        if classification == nil {
+            summonAlertView()
+        }
     }
     
     // Note: Its not supposed to be in the VC.swift file??
-    private func classifySound(file: AVAudioFile) {
-        classify(Animal.allCases.randomElement()!)
+    private func classifySound(file: URL) {
+        classifier?.classify(audioFile: file) { result in
+            self.classify(Animal(rawValue: result ?? ""))
+        }
     }
     
     
