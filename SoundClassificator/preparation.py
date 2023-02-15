@@ -16,7 +16,7 @@ output_directory = "/Users/Meta/Desktop/ESC-50-master/classes/"
 classes_to_include = [ 'dog', 'rooster', 'pig', 'cow', 'frog', 'cat', 'hen', 'insects', 'sheep', 'crow' ]
 
 # whether to use whole ESC-50 dataset or lesser-restricted ESC-10 subset
-include_unlicensed = False
+include_unlicensed = True
 
 # Make output directory
 try:
