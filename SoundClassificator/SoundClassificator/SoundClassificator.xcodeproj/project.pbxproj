@@ -15,6 +15,7 @@
 		C070053D29944FE6005187AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C070053B29944FE6005187AA /* LaunchScreen.storyboard */; };
 		C070054529945014005187AA /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = C070054429945014005187AA /* Animals.swift */; };
 		C0BF1EBA299D51A1000743FD /* SoundClassifierModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C0BF1EB9299D51A1000743FD /* SoundClassifierModel.mlmodel */; };
+		C0BF1EBC299D59FD000743FD /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BF1EBB299D59FD000743FD /* Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C070053E29944FE6005187AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C070054429945014005187AA /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
 		C0BF1EB9299D51A1000743FD /* SoundClassifierModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SoundClassifierModel.mlmodel; sourceTree = "<group>"; };
+		C0BF1EBB299D59FD000743FD /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				C070053E29944FE6005187AA /* Info.plist */,
 				C070054429945014005187AA /* Animals.swift */,
 				C0BF1EB9299D51A1000743FD /* SoundClassifierModel.mlmodel */,
+				C0BF1EBB299D59FD000743FD /* Audio.swift */,
 			);
 			path = SoundClassificator;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C070053529944FE5005187AA /* ViewController.swift in Sources */,
+				C0BF1EBC299D59FD000743FD /* Audio.swift in Sources */,
 				C0BF1EBA299D51A1000743FD /* SoundClassifierModel.mlmodel in Sources */,
 				C070054529945014005187AA /* Animals.swift in Sources */,
 				C070053129944FE4005187AA /* AppDelegate.swift in Sources */,
